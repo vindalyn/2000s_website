@@ -120,7 +120,7 @@ const test = "test";
                     </tr>
                 </table>
                 <p>this website is still under construction!</p>
-                <img src={excavator_url} alt="excavator digging" class="exc" width=184px height=124px>
+                <img src={test} alt="excavator digging" class="exc" width=184px height=124px>
             </div>
         </div>
        
