@@ -1,5 +1,6 @@
 <script>
-//const excavator_url = new URL('../pix/construction.gif', import.meta.url).href
+const excavator_url = new URL('../pix/construction.gif', import.meta.url).href;
+
 
 </script>
 <style>
@@ -119,7 +120,7 @@
                     </tr>
                 </table>
                 <p>this website is still under construction!</p>
-                <img src="" alt="excavator digging" class="exc" width=184px height=124px>
+                <img src={excavator_url} alt="excavator digging" class="exc" width=184px height=124px>
             </div>
         </div>
        
