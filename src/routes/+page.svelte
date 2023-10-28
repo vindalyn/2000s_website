@@ -1,6 +1,6 @@
 <script>
 const excavator_url = new URL('/public/pix/construction.gif', import.meta.url).href;
-
+console.log(excavator_url)
 </script>
 <style>
     
