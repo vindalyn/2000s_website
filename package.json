@@ -1,0 +1,26 @@
+{
+	"name": "first-test",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start:app": "npm run dev",
+		"start:server": "node --experimental-modules src/throwaway/server.mjs",
+		"start:both": "concurrently \"npm run start:app\" \"npm run start:server\""
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"concurrently": "^8.2.2",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"express": "^4.17.1",
+		"fs": "*",
+		"cors": "*"
+	}
+}
