@@ -1,6 +1,5 @@
 <script>
-const excavator_url = new URL('/public/pix/construction.gif', import.meta.url).href;
-console.log(excavator_url)
+
 </script>
 <style>
     
@@ -19,7 +18,7 @@ console.log(excavator_url)
 }
 @font-face {
     font-family: 'Pixeloid Sans';
-    src: url('/public/fonts/pixeloid_sans.ttf') format('truetype');
+    src: url('/fonts/pixeloid_sans.ttf') format('truetype');
 }
 
 
@@ -119,7 +118,7 @@ console.log(excavator_url)
                     </tr>
                 </table>
                 <p>this website is still under construction!</p>
-                <img src={excavator_url} alt="excavator digging" class="exc" width=184px height=124px>
+                <img src='/pix/construction.gif' alt="excavator digging" class="exc" width=184px height=124px>
             </div>
         </div>
        
