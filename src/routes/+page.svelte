@@ -7,5 +7,7 @@ body{
     color: white;
 }
 </style>
+<body>
+    <p>hi clord! ;3</p>
 
-<p>hi clord! ;3</p>
+</body>
