@@ -1,6 +1,6 @@
 <script>
-const excavator_url = new URL('../pix/construction.gif', import.meta.url).href;
-
+//const excavator_url = new URL('../pix/construction.gif', import.meta.url).href;
+const test = "test";
 
 </script>
 <style>
