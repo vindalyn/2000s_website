@@ -118,7 +118,7 @@
                     </tr>
                 </table>
                 <p>this website is still under construction!</p>
-                <img src="src/pix/construction.gif" alt="excavator digging" class="exc" width=184px height=124px>
+                <img src="../pix/construction.gif" alt="excavator digging" class="exc" width=184px height=124px>
             </div>
         </div>
        
