@@ -27,13 +27,14 @@
 }
 #middle{
     border: darkgreen solid 8px;
-    width: 100vh;
+    width: 45%;
     display: flex;
     flex-direction: column;
 }
 
 #content > *{
     margin-left: 20px;
+    margin-right: 20px;
 }
    
 
@@ -62,11 +63,14 @@
 }
 #extra-list > tr > td{
     padding-left: 10px;
+    padding-right: 30px;
     font-size: small;
 }
 
-#middle .exc{
-    padding-left: calc(50vh - 184px*0.6)
+.centered-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #main{
     width: 100%;
@@ -86,7 +90,7 @@
 
 @media (max-width: 768px) {
   .element {
-    flex: 0 0 calc(50% - 10px); 
+    flex: 0 0 50%; 
   }
 }
 
@@ -105,11 +109,10 @@
 
         <div id="middle">
             <div class="window-title-bar">
-                <span style="margin-left: 98vh; font-size:19px;">X</span>
+                <span style="position: absolute;right: 5px; font-size:19px;">X</span>
             </div>
             <div id="content" class="element">
                 
-                <p>center</p>
                 <p>hiii this is my epic website - vindalyn ;3</p>
                 <p>also:</p>
                 <table id="extra-list">
@@ -118,7 +121,9 @@
                     </tr>
                 </table>
                 <p>this website is still under construction!</p>
-                <img src='/pix/construction.gif' alt="excavator digging" class="exc" width=184px height=124px>
+                <div class="centered-image">
+                    <img src='/pix/construction.gif' alt="excavator digging" width=184px height=124px>
+                </div>
             </div>
         </div>
        
