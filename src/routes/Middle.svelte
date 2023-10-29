@@ -79,6 +79,7 @@ import {hello_kitty, excavator, demon_quote } from "./data.js";
             </tr>
 
         </table>
+        <p>WHY THE HELL IS AZULI ABLE TO MAKE ME MELT? WHAT THE HELL-</p>
 
         <p>this website is still under construction!</p>
 
