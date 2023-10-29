@@ -1,0 +1,9 @@
+.element{
+    flex: 1;
+  margin: 5px; 
+}
+@media (max-width: 768px) {
+    .element {
+      flex: 0 0 50%; 
+    }
+  }
