@@ -70,9 +70,12 @@ import {hello_kitty, excavator, demon_quote } from "./data.js";
         <p>also:</p>
 
         <table id="extra-list">
-
+            <p>good girls:</p>
             <tr>
-                <td>dwizzy is a certified cat girl!!! the cutest one there is!!! <img src="/pix/gifs/cute/hearts.gif" alt="a floating hearts gif ;3" width=46px height=46px></td>
+                <td>dwizzy!!<img src="/pix/gifs/cute/hearts.gif" alt="a floating hearts gif ;3" width=46px height=46px></td>
+            </tr>
+            <tr>
+                <td>AZULI!!!</td>
             </tr>
 
         </table>
