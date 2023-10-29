@@ -1,9 +1,9 @@
 <script>
 
-//import {hello_kitty} from "./Images.svelte";
+
 import Image from "./Image.svelte";
-//<Image {...hello_kitty}/>
-//
+import {ralsei_quote, kris_where_are_we } from "./data.js";
+
 </script>
 <style>
     @import "/css/main.css";
@@ -17,5 +17,5 @@ import Image from "./Image.svelte";
 </style>
 
 <div id="leftcolumn" class="element">
-    
+    <p style="position: absolute; bottom: 5px; color: green; font-size: 12px;"><Image {...kris_where_are_we}/>{ralsei_quote}</p>
 </div>
