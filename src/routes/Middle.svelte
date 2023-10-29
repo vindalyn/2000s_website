@@ -7,8 +7,9 @@ import {hello_kitty, excavator, demon_quote } from "./data.js";
 <style>
 @import '/css/main.css';
 
-    #middle{
+#middle{
     border: var(--border-color) solid 8px;
+    background-color: #ffd6ed;
     width: 45%;
     display: flex;
     flex-direction: column;

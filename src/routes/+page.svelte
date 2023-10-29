@@ -5,13 +5,7 @@ import LeftColumn from "./LeftColumn.svelte";
 import RightColumn from "./RightColumn.svelte";
 </script>
 <style>
-
-    :root{
-        --border-color: #fa4ca9;
-        --window-tab-background: #F3EFEF;
-        --window-background: #ffd6ed;
-        --text-color: #fa4ca9;
-    }
+    @import "/css/color.css";
 :global(body){
     margin: 0;
     width: 100%;
