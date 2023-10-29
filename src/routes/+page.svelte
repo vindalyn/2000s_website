@@ -1,5 +1,5 @@
 <script>
-
+const demon_quote = "I hate wasted potential, that shit.. crushes your spirit. It really does, it crushes your sou-";
 </script>
 <style>
     
@@ -121,6 +121,7 @@
                     </tr>
                 </table>
                 <p>this website is still under construction!</p>
+                <span style="color: black;">{demon_quote}</span>
                 <div class="centered-image">
                     <img src='/pix/construction.gif' alt="excavator digging" width=184px height=124px>
                 </div>
