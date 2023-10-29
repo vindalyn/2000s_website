@@ -1,5 +1,5 @@
 <script>
-const demon_quote = "I hate wasted potential, that shit.. crushes your spirit. It really does, it crushes your sou-";
+const demon_quote = "I hate wasted potential, that shit.. crushes your spirit. It really does, it crushes your sou- -Demon";
 </script>
 <style>
     
