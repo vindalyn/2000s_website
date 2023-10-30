@@ -1,6 +1,7 @@
 <script>
 
 import Middle from './Middle.svelte';
+import Column from "./Column.svelte"
 import LeftColumn from "./LeftColumn.svelte";
 import RightColumn from "./RightColumn.svelte";
 </script>
@@ -56,7 +57,8 @@ import RightColumn from "./RightColumn.svelte";
 
     <div id="main" class="row">
         
-    <LeftColumn />
+    <Column >
+        </Column>
     <Middle />
     <RightColumn />
 

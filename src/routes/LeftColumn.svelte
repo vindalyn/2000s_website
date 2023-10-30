@@ -1,9 +1,11 @@
 <script>
 
-
+import TitleBar from "./TitleBar.svelte";
 import Image from "./Image.svelte";
 import {ralsei_quote, kris_where_are_we } from "./data.js";
-
+/*
+TODO: create a window (refer to middle.svelte) for this ;3
+*/
 </script>
 <style>
     @import "/css/main.css";
@@ -38,7 +40,15 @@ import {ralsei_quote, kris_where_are_we } from "./data.js";
 </style>
 
 <div id="leftcolumn" class="element column-padding">
+    <div id="window">
+        <TitleBar message="hi"/>
     <div id="secret">
-        <p><Image {...kris_where_are_we}/>{ralsei_quote}</p>
+
+            <p><Image {...kris_where_are_we}/>{ralsei_quote}</p>
+
     </div>
+
+    </div>
+        
+
 </div>

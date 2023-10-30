@@ -1,6 +1,6 @@
 <script>
 import Image from "./Image.svelte";
-
+import TitleBar from "./TitleBar.svelte";
 import {hello_kitty, excavator, demon_quote } from "./data.js";
 
 </script>
@@ -26,19 +26,7 @@ import {hello_kitty, excavator, demon_quote } from "./data.js";
     flex: 1;
 }
 
-.window-title-bar{
-    background-color: var(--window-tab-background);
-    border-bottom: var(--border-color) solid 3px;
-    position: relative;
-    width: 100%;
-    height: 30px;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center; 
-}
+
 .window-title-bar p {
     padding-left: 10px;
 }
@@ -60,9 +48,7 @@ import {hello_kitty, excavator, demon_quote } from "./data.js";
 </style>
 
 <div id="middle">
-    <div class="window-title-bar">
-        <span style="position: absolute;right: 5px; font-size:19px;">X</span>
-    </div>
+    <TitleBar />
 
 
     <div id="content" class="element">
