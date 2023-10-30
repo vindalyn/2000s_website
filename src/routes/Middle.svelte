@@ -25,6 +25,7 @@ import {hello_kitty, excavator, demon_quote } from "./data.js";
     background: var(--window-background);
     flex: 1;
 }
+
 .window-title-bar{
     background-color: var(--window-tab-background);
     border-bottom: var(--border-color) solid 3px;
@@ -49,6 +50,12 @@ import {hello_kitty, excavator, demon_quote } from "./data.js";
     padding-right: 30px;
     font-size: small;
 }
+@media (max-width: 768px) {
+        #middle {
+            width: 100%;
+            order: 2; 
+        }
+    }
 
 </style>
 

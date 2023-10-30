@@ -38,7 +38,11 @@ import RightColumn from "./RightColumn.svelte";
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+@media (max-width: 768px) {
+        .row {
+            flex-direction: row; /* Stack columns vertically for mobile */
+        }
+    }
 
 
 
@@ -49,12 +53,13 @@ import RightColumn from "./RightColumn.svelte";
  
     </div>
     
+
     <div id="main" class="row">
         
     <LeftColumn />
     <Middle />
-
     <RightColumn />
+
     </div>
 
     <div id="footer">

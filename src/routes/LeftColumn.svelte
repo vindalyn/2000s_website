@@ -14,8 +14,31 @@ import {ralsei_quote, kris_where_are_we } from "./data.js";
         height: 100%;
         margin: 0;
     }
+
+    #secret{
+        color: green; 
+        font-size: 12px;
+    }
+
+    @media (max-width: 768px) {
+        #leftcolumn {
+            height: 20%;
+            width: 100%;
+            order: 1; 
+        }
+        #secret{
+      position: relative;
+    }
+    .column-padding{
+        padding-bottom: 5px;
+    }
+    }
+
+    
 </style>
 
-<div id="leftcolumn" class="element">
-    <p style="position: absolute; bottom: 5px; color: green; font-size: 12px;"><Image {...kris_where_are_we}/>{ralsei_quote}</p>
+<div id="leftcolumn" class="element column-padding">
+    <div id="secret">
+        <p><Image {...kris_where_are_we}/>{ralsei_quote}</p>
+    </div>
 </div>
