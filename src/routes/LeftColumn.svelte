@@ -1,54 +1,29 @@
 <script>
 
-import TitleBar from "./TitleBar.svelte";
 import Image from "./Image.svelte";
 import {ralsei_quote, kris_where_are_we } from "./data.js";
-/*
-TODO: create a window (refer to middle.svelte) for this ;3
-*/
+
 </script>
 <style>
-    @import "/css/main.css";
-    #leftcolumn {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
-        height: 100%;
-        margin: 0;
-    }
+    #secret{ 
 
-    #secret{
         color: green; 
         font-size: 12px;
     }
 
     @media (max-width: 768px) {
-        #leftcolumn {
-            height: 20%;
-            width: 100%;
-            order: 1; 
-        }
         #secret{
       position: relative;
     }
-    .column-padding{
-        padding-bottom: 5px;
+
     }
-    }
+
 
     
 </style>
 
-<div id="leftcolumn" class="element column-padding">
-    <div id="window">
-        <TitleBar message="hi"/>
-    <div id="secret">
+<div id="secret">
 
-            <p><Image {...kris_where_are_we}/>{ralsei_quote}</p>
-
-    </div>
-
-    </div>
-        
+    <p><Image {...kris_where_are_we}/>{ralsei_quote}</p>
 
 </div>

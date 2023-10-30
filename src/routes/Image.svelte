@@ -10,7 +10,6 @@ export let width;
 .centered-image{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 </style>
 

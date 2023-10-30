@@ -1,5 +1,11 @@
 <script>
     export let title;
+    export let window_tab_background;
+    export let border_color;
+    export let text_color;
+    window_tab_background = window_tab_background || "#F3EFEF";
+    border_color = border_color || "#fa4ca9";
+    text_color = text_color || "#fa4ca9";
 </script>
 
 <style>
@@ -16,9 +22,13 @@
   display: flex;
   align-items: center; 
 }
+
+.window-title-bar p {
+    padding-left: 10px;
+}
 </style>
 
-<div class="window-title-bar">
+<div class="window-title-bar" style="--window-tab-background: {window_tab_background}; --border-color: {border_color}; color: {text_color};">
     {#if title}
         <p>{title}</p>
     {/if}
