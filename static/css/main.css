@@ -6,12 +6,11 @@
     .element {
       flex: 0 0 50%; 
     }
-    #secret{
-      position: relative;
-  }
+   
   }
 
   #secret{
     position: absolute;
     bottom: 5px;
 }
+
