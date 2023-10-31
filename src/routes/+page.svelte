@@ -11,7 +11,8 @@ import RightColumn from "./RightColumn.svelte";
 
 </script>
 <style>
-:global(body){
+ :global(html){
+    background: url('/pix/scanlines.png');
     background-image: linear-gradient(to bottom, #FFB6C1, #FF69B4, #ffa4d2);
     image-rendering: pixelated;
     background-size: 10px 4px;
@@ -21,13 +22,17 @@ import RightColumn from "./RightColumn.svelte";
     margin: 0;
     padding: 0;
     height: 100%;
-}
+  }
 
-
+  :global(body) {
+    mix-blend-mode: overlay;
+    filter: grayscale(90%) contrast(120%) brightness(95%) blur(0.5px);
+  }
 @font-face {
     font-family: 'Pixeloid Sans';
     src: url('/fonts/pixeloid_sans.ttf') format('truetype');
 }
+
 
 #main{
     width: 100%;
