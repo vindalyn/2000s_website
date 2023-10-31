@@ -26,7 +26,6 @@ import RightColumn from "./RightColumn.svelte";
 
   #main {
     mix-blend-mode: overlay;
-    filter: grayscale(90%) contrast(120%);
   }
 @font-face {
     font-family: 'Pixeloid Sans';
@@ -48,7 +47,7 @@ import RightColumn from "./RightColumn.svelte";
     width: 55%;
 }
 #middle, #left, #right{
-   filter: blur(0.5px) brightness(95%);
+   filter: grayscale(90%) contrast(120%) blur(0.5px) brightness(95%);
 }
 #left{
     padding-right: 2%;
