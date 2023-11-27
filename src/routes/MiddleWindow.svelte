@@ -27,21 +27,23 @@ import Image from "./Image.svelte";
 <Image {...hello_kitty}/>
 
 
-<p>i'm vindalyn, and... i was really, really bored, so i decided to make this website!</p>
+<p>i'm vindalyn, a silly, sixteen-year-old transfem gal, and... i was really, really bored, so i decided to make this website! :3</p>
 
 <p>also:</p>
 
 <table id="extra-list">
     <p>good girls:</p>
     <tr>
-        <td>dwizzy!!<img src="/pix/gifs/cute/hearts.gif" alt="a floating hearts gif ;3" width=46px height=46px></td>
+        <td>bonnie!!<img src="/pix/gifs/cute/hearts.gif" alt="a floating hearts gif ;3" width=46px height=46px></td>
+    </tr>
+    <tr>
+        <td>dwizzy!!</td>
     </tr>
     <tr>
         <td>AZULI!!!</td>
     </tr>
 
 </table>
-<p>WHY THE HELL IS AZULI ABLE TO MAKE ME MELT? WHAT THE HELL-</p>
 
 <p>this website is still under construction!</p>
 
