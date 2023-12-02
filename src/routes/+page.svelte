@@ -6,11 +6,15 @@ import MiddleWindow from './MiddleWindow.svelte';
 
 import Column from "./Column.svelte"
 import LeftColumn from "./LeftColumn.svelte";
+import nav from "./nav.svelte";
+
 import RightColumn from "./RightColumn.svelte";
+
 
 
 </script>
 <style>
+  @import '/css/main.css';
  :global(html){
     background: url('/pix/scanlines.png');
     background-image: linear-gradient(to bottom, #FFB6C1, #FF69B4, #ffa4d2);
@@ -27,11 +31,6 @@ import RightColumn from "./RightColumn.svelte";
   #main {
     mix-blend-mode: overlay;
   }
-@font-face {
-    font-family: 'Pixeloid Sans';
-    src: url('/fonts/pixeloid_sans.ttf') format('truetype');
-}
-
 
 #main{
     width: 100%;
@@ -60,6 +59,9 @@ import RightColumn from "./RightColumn.svelte";
 }
 #left, #right{
     flex: 1;
+}
+#nav{
+    padding-top: 2%;
 }
 
 @media (max-width: 768px) {
@@ -101,7 +103,11 @@ import RightColumn from "./RightColumn.svelte";
 
     <div id="main">
         <div id="left">
+
             <Column content={LeftColumn} title="HUH!?"/>
+            <div id="nav">
+                <Column content={nav} title="navigation :3"/>
+            </div>
         </div>
 
         <div id="middle">

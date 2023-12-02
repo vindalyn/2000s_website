@@ -18,5 +18,15 @@ const imageTemplate = {
 
   const demon_quote = '"I hate wasted potential, that shit.. crushes your spirit. It really does, it crushes your sou-" -Demon';
   const ralsei_quote = '"Kris, where the HELL are we?" - Ralsei';
-  export { imageTemplate, hello_kitty, excavator, demon_quote, ralsei_quote, kris_where_are_we, billson};
+
+  const nav = [
+    {
+      ...imageTemplate, src: "./pix/gifs/cute/kirby-run.gif", alt: "kirby running!!", width: "18px", height: "18px", url: "../", page: "home!!! -w-"
+    },
+    {
+      ...imageTemplate, src: "./pix/gifs/cute/hero-omori-sleep.gif", alt: "hero omori sleeping!!", width: "18px", height: "18px", url: "mental_health", page: "my mental health :(("
+    }
+
+  ]
+  export { imageTemplate, hello_kitty, excavator, demon_quote, ralsei_quote, kris_where_are_we, billson, nav};
   
