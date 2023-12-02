@@ -32,7 +32,7 @@ import Image from "./Image.svelte";
 <p>also:</p>
 
 <table id="extra-list">
-    <p>good girls:</p>
+    <p>good girls & boys:</p>
     <tr>
         <td>bonnie!!<img src="/pix/gifs/cute/hearts.gif" alt="a floating hearts gif ;3" width=46px height=46px></td>
     </tr>
