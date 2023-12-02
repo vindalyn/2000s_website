@@ -30,9 +30,9 @@ import Image from "./Image.svelte";
 <p>i'm vindalyn, a silly, sixteen-year-old transfem gal, and... i was really, really bored, so i decided to make this website! :3</p>
 
 <p>also:</p>
+<p>good people :3:</p>
 
 <table id="extra-list">
-    <p>good girls & boys:</p>
     <tr>
         <td>bonnie!!<img src="/pix/gifs/cute/hearts.gif" alt="a floating hearts gif ;3" width=46px height=46px></td>
     </tr>
