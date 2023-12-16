@@ -34,13 +34,7 @@ import Image from "./Image.svelte";
 
 <table id="extra-list">
     <tr>
-        <td>bonnie!!<img src="/pix/gifs/cute/hearts.gif" alt="a floating hearts gif ;3" width=46px height=46px></td>
-    </tr>
-    <tr>
         <td>dwizzy!!</td>
-    </tr>
-    <tr>
-        <td>AZULI!!!</td>
     </tr>
 
 </table>

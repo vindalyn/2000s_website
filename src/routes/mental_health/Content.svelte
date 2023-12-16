@@ -9,5 +9,6 @@
 </style>
 
 <div id="main">
-    <p>filler text until i decide to voice my thoughts here.</p>
+    <h3>2023-12-15</h3>
+    <p>fuck both bonnie and azuli, tbh. might say more at a later date, but right now? hell no</p>
 </div>
